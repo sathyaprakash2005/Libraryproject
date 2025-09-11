@@ -1,0 +1,79 @@
+.Addbook1-container{
+    background-image: url('../../Assets/Add background.jpeg');
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.Addbook1-cont::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(141, 181, 233);
+    width: 30%;
+    height: 100vh;
+    border-radius: 80px;
+}
+.Addbook1-cont::after{
+    content: '';
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    background-color: #fff;
+    width: 23%;
+    height: 70vh;
+    border-radius: 30px;
+}
+.book-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40%;
+    margin-top:5%;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 40%;
+    height: 60vh;
+    border-radius: 30px;
+}
+.book-cont form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    padding-left: 60px;
+}
+.book-cont input{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    font-size: 1rem;
+}
+.book-cont h1{
+    padding-left: 37%;
+}
+.Addbook1-container p{
+  position: relative;
+  top: 20px;
+  left: 90px;
+  font-size: 2rem;
+  color: #fff;
+}
+.Addbook1-container img{
+    width: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    left: -10px;
+    top: 10px;
+}
+.book-cont button{
+    border: 2px solid rgb(170, 169, 169);
+    width: 20%;
+    padding: 10px;
+    position: relative;
+    left: 40%;
+    font-size: 1rem;
+    border-radius: 10px;
+}

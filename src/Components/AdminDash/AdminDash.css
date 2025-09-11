@@ -1,0 +1,112 @@
+.Ad-container{
+    height: 100vh;
+    background-image: url('../../Assets/back7.jpeg');
+    background-size: cover;
+    background-position: 50% 100%;
+    overflow: hidden;
+    
+}
+.Admin-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 110px;
+    width: 50%;
+    margin-left: 25%;
+    height: 40vh;
+    background-color: rgba(255, 255, 255, 0.281);
+
+}
+.Admin-cont1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 110px;
+    margin-top: 10px;
+    gap: 20px;
+    font-size: 1.3rem;
+}
+.Admin-cont2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    gap: 20px;
+}
+.Admin-cont1 img{
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: -30px;
+}
+.Admin-cont2 img{
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: -30px;
+}
+.Ad-container h1{
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.log-cont{
+    color: #fff;
+    position: relative;
+    top: -100px;
+    left: 40%;
+    margin-top: -30px;
+}
+.log-cont img{
+    width: 25px;
+    position: relative;
+    left: -1%;
+}
+.search-cont{
+    position: relative;
+    left: 40%;
+    background: #fff;
+    padding-left: 10px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: -70px;
+    position: relative;
+    top: 80px;
+}
+.search-cont input{
+    border: none;
+    font-size: 1.3rem;
+}
+.search-cont input:focus{
+    outline: none;
+    border: none;
+}
+.search-cont img{
+    width: 20px;
+}
+.profile-cont{
+    background-color: rgba(255, 255, 255, 0.281);
+    width: 13%;
+    margin-left: 50px;
+    border-radius: 30px;  
+}
+.profile-cont img{
+    width: 45px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+.profile-cont h1{
+    position: relative;
+    left: 30px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+.Admin-cont a{
+    text-decoration: none;
+    color: black;
+}

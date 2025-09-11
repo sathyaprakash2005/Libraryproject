@@ -1,0 +1,36 @@
+.borrowed-container{
+    background-image: url('../../Assets//back5.jpeg');
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.borrow-cont::before{
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+
+}
+.borrow-cont::after{
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    width: 21%;
+    height: 70vh;
+    background-image: url('../../Assets/back6.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 30px;
+}
+.borrow-cont h1{
+    color: #fff;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    z-index: 1;
+}
